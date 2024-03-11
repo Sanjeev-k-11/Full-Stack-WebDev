@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rotate Div</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rotate-div {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        transition: transform 4s ease 2s; /* 4s duration with a 2s delay */
+    }
+
+    .rotate-div:hover {
+        transform: rotate(60deg);
+    }
+</style>
+</head>
+<body>
+
+<div class="rotate-div"></div>
+
+</body>
+</html>
